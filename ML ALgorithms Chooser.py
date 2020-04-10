@@ -686,11 +686,10 @@ class Analytics:
          avg_pred_chg_failure_prob_0=f1.mean()
 	 """
 
-N=Analytics()
-N.initialize()
-#N.test_model("alt_failure_flag")
-"""if(__name__=='__main__'):
-              
-"""
-"""
-"""
+if(__name__=='__main__'):
+	
+   N=Analytics()
+   N.initialize()
+   N.test_model("alt_failure_flag")
+
+
